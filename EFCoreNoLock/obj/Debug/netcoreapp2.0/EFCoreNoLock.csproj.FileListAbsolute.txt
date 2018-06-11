@@ -1,0 +1,11 @@
+d:\cds\dotnet\teste\EFCoreNoLock\EFCoreNoLock\bin\Debug\netcoreapp2.0\EFCoreNoLock.deps.json
+d:\cds\dotnet\teste\EFCoreNoLock\EFCoreNoLock\bin\Debug\netcoreapp2.0\EFCoreNoLock.runtimeconfig.json
+d:\cds\dotnet\teste\EFCoreNoLock\EFCoreNoLock\bin\Debug\netcoreapp2.0\EFCoreNoLock.runtimeconfig.dev.json
+d:\cds\dotnet\teste\EFCoreNoLock\EFCoreNoLock\bin\Debug\netcoreapp2.0\EFCoreNoLock.dll
+d:\cds\dotnet\teste\EFCoreNoLock\EFCoreNoLock\obj\Debug\netcoreapp2.0\EFCoreNoLock.csprojAssemblyReference.cache
+d:\cds\dotnet\teste\EFCoreNoLock\EFCoreNoLock\obj\Debug\netcoreapp2.0\EFCoreNoLock.csproj.CoreCompileInputs.cache
+d:\cds\dotnet\teste\EFCoreNoLock\EFCoreNoLock\obj\Debug\netcoreapp2.0\EFCoreNoLock.AssemblyInfoInputs.cache
+d:\cds\dotnet\teste\EFCoreNoLock\EFCoreNoLock\obj\Debug\netcoreapp2.0\EFCoreNoLock.AssemblyInfo.cs
+d:\cds\dotnet\teste\EFCoreNoLock\EFCoreNoLock\bin\Debug\netcoreapp2.0\EFCoreNoLock.pdb
+d:\cds\dotnet\teste\EFCoreNoLock\EFCoreNoLock\obj\Debug\netcoreapp2.0\EFCoreNoLock.dll
+d:\cds\dotnet\teste\EFCoreNoLock\EFCoreNoLock\obj\Debug\netcoreapp2.0\EFCoreNoLock.pdb
