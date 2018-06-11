@@ -19,7 +19,8 @@ namespace EFCoreNoLock
                 IntegratedSecurity = true
             };
             //optionsBuilder.UseLazyLoadingProxies(true);
-            optionsBuilder.UseSqlServer(conexao.ConnectionString);
+            optionsBuilder.UseSqlServer(conexao.ConnectionString)
+                .RalmsExtendFunctions();
         }
     }
 }
