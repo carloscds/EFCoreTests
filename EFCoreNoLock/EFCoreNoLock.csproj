@@ -6,9 +6,140 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.entityframeworkcore.proxies" Version="2.1.0" />
-    <PackageReference Include="Microsoft.entityframeworkcore.sqlserver" Version="2.1.0" />
-    <PackageReference Include="Ralms.EntityFrameworkCore.Extensions" Version="1.0.2" />
+    <PackageReference Include="castle.core" Version="4.3.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Castle.Core">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Relational.Specification.Tests\bin\Debug\net461\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Proxies\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Abstractions">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Proxies\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Analyzers">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Proxies\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Analyzers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Proxies">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Proxies\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Proxies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Relational">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.SqlServer\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.SqlServer">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.SqlServer\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Abstractions">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Caching.Memory">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\Microsoft.Extensions.Caching.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Binder">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Linq">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\Remotion.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Interactive.Async">
+      <HintPath>..\..\xxx\out\System.Interactive.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>..\..\EntityFrameworkCore\src\EFCore.Design\bin\Debug\net461\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

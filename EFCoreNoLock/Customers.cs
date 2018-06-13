@@ -11,5 +11,9 @@ namespace EFCoreNoLock
         public string CustomerID { get; set; }
         public string CompanyName { get; set; }
         public virtual IEnumerable<Orders> Orders { get; set; }
+        public Customers()
+        {
+            Orders = new List<Orders>();
+        }
     }
 }

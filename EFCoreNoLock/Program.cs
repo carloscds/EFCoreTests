@@ -1,6 +1,4 @@
 ﻿using System;
-using Microsoft.EntityFrameworkCore;
-using Ralms.EntityFrameworkCore.Extensions;
 using System.Linq;
 
 namespace EFCoreNoLock
@@ -12,12 +10,15 @@ namespace EFCoreNoLock
             var db = new Contexto();
 
             var cliente = db.Customers
-                .WithNoLock()
                 .ToList();
 
             foreach(var c in cliente)
             {
                 Console.WriteLine(c.CompanyName);
+                foreach(var o in c.Orders)
+                {
+                    Console.WriteLine($"Order: {o.OrderID}");
+                }
             }
         }
     }

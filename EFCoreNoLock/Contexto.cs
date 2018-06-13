@@ -18,9 +18,8 @@ namespace EFCoreNoLock
                 InitialCatalog = "NorthWind",
                 IntegratedSecurity = true
             };
-            //optionsBuilder.UseLazyLoadingProxies(true);
-            optionsBuilder.UseSqlServer(conexao.ConnectionString)
-                .RalmsExtendFunctions();
+            optionsBuilder.UseLazyLoadingProxies(false,true);
+            optionsBuilder.UseSqlServer(conexao.ConnectionString);
         }
     }
 }
